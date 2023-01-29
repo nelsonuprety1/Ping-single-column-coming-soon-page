@@ -17,6 +17,97 @@ body {
         sans-serif;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    max-height: 750px;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+}
+
+.logo {
+    max-width: 70px;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: var(--color-gray);
+    font-weight: var(--font-weight-light);
+    margin-bottom: 15px;
+    letter-spacing: 1.5px;
+}
+
+.soon {
+    color: var(--color-very-dark-blue);
+    font-weight: var(--font-weight-bold);
+}
+
+.subscribe {
+    font-size: 0.85rem;
+    color: var(--color-very-dark-blue);
+    font-weight: var(--font-weight-light);
+    margin-bottom: 20px;
+}
+
+#email {
+    width: 340px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid var(--color-pale-blue);
+}
+
+.btn {
+    width: 340px;
+    padding: 10px;
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    border: 1px solid var(--color-blue);
+    background-color: var(--color-blue);
+    font-weight: var(--font-weight-bold);
+    font-size: 0.75rem;
+}
+
+
 .error-msg {
     display: none;
+    font-size: 0.75rem;
+    color: var(--color-light-red);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: block;
+    margin-top: 20px;
+}
+
+.dashboard {
+    margin: 50px 50px;
+}
+
+.social-icons {
+    color: var(--color-blue);
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+.fa-facebook {
+    margin-right: 10px;
+}
+
+.fa-twitter {
+    margin-right: 10px;
+}
+
+.cp-rt {
+    font-size: 0.75rem;
+    color: var(--color-gray);
+    font-weight: var(--font-weight-light);
+}
+
+.attribution {
+    font-size: 0.9rem;
 }
