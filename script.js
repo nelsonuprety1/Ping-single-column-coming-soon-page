@@ -11,9 +11,10 @@ function validateEmail(event) {
 
   if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
     errorMsg.style.display = 'block';
+    emailInput.style.border = '1px solid red';
   } else {
     errorMsg.style.display = 'none';
-
+    emailInput.style.border = '';
     document.querySelector('#email').value = '';
   }
 }
