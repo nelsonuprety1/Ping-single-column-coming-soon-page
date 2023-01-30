@@ -11,6 +11,7 @@ function validateEmail(event) {
 
   if (!/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)) {
     errorMsg.style.display = 'block';
+    errorMsg.innerHTML = 'Please provide a valid email address.';
     emailInput.style.border = '1px solid red';
   } else {
     errorMsg.style.display = 'none';
